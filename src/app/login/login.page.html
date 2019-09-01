@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <form>
+        <ion-item>
+            <ion-label>Username</ion-label>
+            <ion-input #usernameInput type="text" value=""></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Password</ion-label>
+            <ion-input #passwordInput type="password" value=""></ion-input>
+        </ion-item>
+        <div style="padding-top: 20px;">
+            <ion-button (click)="clickLogin()" >Login</ion-button>
+        </div>
+        
+    </form>
+</ion-content>
